@@ -1,0 +1,102 @@
+---
+layout: default
+title: Policy library
+permalink: /library/
+disqus-comment-count: true
+---
+
+<div class="row">
+
+  <div class="col-md-12">
+    <h1>{{ page.title }}</h1>
+    <hr />
+    <p>This is where the magic happens. All of the policy proposals we are working on are set out below. Choose a proposal to review and then add your contribution either in the comments or by editing the proposal itself.</p>
+    <hr />
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-md-4">
+    <h4 class="">Public services<br><small>Including education, health and justice</small></h4>
+    <hr />
+    
+      {% for page in site.pages %}
+      {% if page.category == 'public-services' %}
+      <p class="library-index"><strong><a href="{{page.url}}">{{page.title}}</a></strong><br />
+      <small><a href="{{page.url | prepend: site.url | append: '#disqus_thread'}}"></a></small></p>
+      {% endif %}
+      {% endfor %}
+  
+  </div>
+
+  <div class="col-md-4">
+    <h4 class="">Economy<br><small>Including tax, welfare and the public finances</small></h4>
+    <hr />
+    
+      {% for page in site.pages %}
+      {% if page.category == 'economy' %}
+      <p class="library-index"><strong><a href="{{page.url}}">{{page.title}}</a></strong><br />
+      <small><a href="{{page.url | prepend: site.url | append: '#disqus_thread'}}"></a></small></p>
+      {% endif %}
+      {% endfor %}
+  
+  </div>
+  
+  <div class="col-md-4">
+    <h4 class="">Growth<br><small>Including innovation, science and technology</small></h4>
+    <hr />
+    
+      {% for page in site.pages %}
+      {% if page.category == 'growth' %}
+      <p class="library-index"><strong><a href="{{page.url}}">{{page.title}}</a></strong><br />
+      <small><a href="{{page.url | prepend: site.url | append: '#disqus_thread'}}"></a></small></p>
+      {% endif %}
+      {% endfor %}
+  
+  </div>
+  
+</div>
+
+<div class="row">
+
+  <div class="col-md-4">
+    <h4 class="">Sustainability<br><small>Including infrastructure, energy and the environment</small></h4>
+    <hr />
+    
+      {% for page in site.pages %}
+      {% if page.category == 'sustainability' %}
+      <p class="library-index"><strong><a href="{{page.url}}">{{page.title}}</a></strong><br />
+      <small><a href="{{page.url | prepend: site.url | append: '#disqus_thread'}}"></a></small></p>
+      {% endif %}
+      {% endfor %}
+  
+  </div>
+
+  <div class="col-md-4">
+    <h4 class="">Government<br><small>Including departments, elected bodies and democracy</small></h4>
+    <hr />
+    
+      {% for page in site.pages %}
+      {% if page.category == 'government' %}
+      <p class="library-index"><strong><a href="{{page.url}}">{{page.title}}</a></strong><br />
+      <small><a href="{{page.url | prepend: site.url | append: '#disqus_thread'}}"></a></small></p>
+      {% endif %}
+      {% endfor %}
+  
+  </div>
+
+  <div class="col-md-4">
+    <h4 class="">International<br><small>Including development, foreign policy and defence</small></h4>
+    <hr />
+    
+      {% for page in site.pages %}
+      {% if page.category == 'international' %}
+      <p class="library-index"><strong><a href="{{page.url}}">{{page.title}}</a></strong><br />
+      <small><a href="{{page.url | prepend: site.url | append: '#disqus_thread'}}"></a></small></p>
+      {% endif %}
+      {% endfor %}
+  
+  </div>
+
+</div>

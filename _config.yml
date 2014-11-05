@@ -1,0 +1,10 @@
+# Site settings
+title: UNGOV
+email: chris@ungov.uk
+description: Government policy needs a fresh perspective. It's time to put your ideas forward.
+baseurl: ""
+url: "http://ungov.uk"
+permalink: /blog/:title/
+
+# Build settings
+markdown: kramdown
