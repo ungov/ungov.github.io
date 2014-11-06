@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-8 col-front">
 
     <h1>{{ page.title }}</h1>
     <p class="text-muted"><small>{{ page.date | date: "%d %B %Y" }}</small></p>
@@ -13,6 +13,14 @@ layout: default
 
     {{ content }}
     
+  </div>
+  <div class="col-md-4">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+
     {% include disqus-comment.html %}    
     
   </div>

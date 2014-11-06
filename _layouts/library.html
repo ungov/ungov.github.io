@@ -3,15 +3,49 @@ layout: default
 ---
 
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-8 col-front">
 
     <h1>{{ page.title }}</h1>
     <hr />
+    
     <p class="lead">{{ page.excerpt }}</p>
     <hr />
+    {{ content }}    
+      
+  </div>
+  <div class="col-md-4 col-front well small">
+  
+      <h3 class="text-muted">Help improve this proposal</h3>
+      <p>Every proposal on this site is a group effort! You can help make this one better by:</p>
+      <ul>
+        <li>Highlighting where this proposal gets it right</li>
+        <li>Suggesting ways that it can be improved</li>
+        <li>Adding links to data and supporting evidence</li>     
+      </ul>
+      
+      <h4>Spread the word</h4>
+      <p>You can use the buttons below to share a link to this page on social media.</p>
 
-    {{ content }}
-    
+      <p><div class="btn-group">
+      <a href="http://www.facebook.com/sharer/sharer.php?p[url]={{ page.url | prepend: site.url}}&[title]={{ page.title }}" target="_blank" class="btn btn-default"><i class="fa fa-thumbs-o-up"></i> Like</a>
+      <a href="http://twitter.com/intent/tweet/?text={{ page.title }}&url={{ page.url | prepend: site.url}}&via=ungovuk" target="_blank" class="btn btn-default"><i class="fa fa-twitter"></i> Tweet</a>
+      <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url}}" target="_blank" class="btn btn-default"><i class="fa fa-google-plus"></i> +1</a>
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.url}}&title={{ page.title }}" target="_blank" class="btn btn-default"><i class="fa fa-linkedin"></i> Share</a>
+      </div></p>
+      
+      <h4>Leave a comment</h4>
+      <p>There's a comment box at the bottom of this page where you can discuss this proposal. You can log in using a <a href="https://disqus.com">Disqus</a>, <a href="https://twitter.com/">Twitter</a>, <a href="https://facebook.com/">Facebook</a> or <a href="https://plus.google.com/">Google+</a> account, or leave a comment as a guest.<p>
+      
+      <h4>Make an edit or addition</h4>
+      <p>If you have a <a href="https://github.com/">GitHub</a> account then you can edit the text of this proposal directly. When you're happy with your changes, send us a pull request.</p>
+      <p><a href="{{ page.path }}" class="btn btn-default"><i class="fa fa-github"></i> Edit this page on GitHub</a></p>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+
     {% include disqus-comment.html %}    
     
   </div>

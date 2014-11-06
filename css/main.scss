@@ -85,9 +85,6 @@ a:hover {
   color: $brand-color;
 }
 
-#disqus_thread {
-  margin-top: $spacing-unit * 2;
-}
 
 
 // Nav
@@ -140,6 +137,16 @@ a:hover {
 
 .col-front {
   margin-bottom: $spacing-unit * 2;
+}
+
+// Panels
+
+.panel {
+  margin-top: $spacing-unit;
+}
+
+.panel-body {
+  font-size: 80%;
 }
 
 
