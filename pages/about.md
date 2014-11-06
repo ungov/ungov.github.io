@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-The decisions government takes on our behalf are hugely important. But modern government is tired, and faced by vested interests, bureaucratic inertia and the tabloid media, too often puts the easy option ahead of the right thing to do.
+The decisions government takes on our behalf are hugely important. But modern government is tired, and when confronted by vested interests, bureaucratic inertia and the tabloid media, too often puts the easiest thing to do ahead of the right thing to do.
 
-But talk to people privately about the work they do - be it in government, in business or in civil society - and most have a clear idea about how government policy can be improved.
+But talk to people privately about the work they do - be it in government, in business or in civil society - and you'll find that most have a clear idea about how government policy can be improved.
 
-We think the country can't afford to let these insights go unheard. So we're building a safe space for people in the know to get their ideas into the open, and for everyone to join in the debate and help change government policy for the better.
+We think the country can't afford to let these insights go unnoticed. So we're building a safe space for people in the know to get their ideas into the open, and for everyone to join in the debate and help change government policy for the better.
 
 #### Our principles
 

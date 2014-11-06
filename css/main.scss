@@ -134,39 +134,12 @@ a:hover {
 
 // Splash
 
-.splash-light, .splash-medium, .splash-dark {
-  padding-top: $spacing-unit * 2;
-  padding-bottom: $spacing-unit * 2;
-}
-
-.splash-light {
-
+.jumbotron {
   background-color: $background-light;
-  
-  hr {
-    border-top: 1px solid $object-light;
-  }
-  
 }
 
-.splash-medium {
-
-  background-color: $background-medium;
-  
-  hr {
-    border-top: 1px solid $object-medium;
-  }
-  
-}
-
-.splash-dark {
-
-  background-color: $background-dark;
-  
-  hr {
-    border-top: 1px solid $object-dark;
-  }
-  
+.col-front {
+  margin-bottom: $spacing-unit * 2;
 }
 
 

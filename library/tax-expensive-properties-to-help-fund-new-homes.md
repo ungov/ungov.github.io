@@ -11,8 +11,8 @@ The UK is not building enough houses, London in particular. This point holds by 
 There are flaws to UK property taxation, which apply particularly to London:
 
  - The main property taxes are [Council Tax](https://www.gov.uk/council-tax/working-out-your-council-tax) and [Stamp Duty](https://www.gov.uk/stamp-duty-land-tax-rates). Council Tax is based on property valuations from 1991, since when property price increases have been large on average but divergent across the country. Areas with high property prices increases (disproportionately London) are consequently under taxed compared with original intentions.
- - Stamp duty (a transaction tax) has also seen static price bands, raising more revenue, but also disincentivising mobility.</li>
- - Capital gains are very often untaxed: there is [no tax when the owner is the primary resident](https://www.gov.uk/capital-gains-tax/capital-gains-tax-on-property), and ways around tax even when they are not primary resident. So the vast increases in property prices (again disproportionately in London) remain substantially untaxed.</li>
+ - Stamp duty (a transaction tax) has also seen static price bands, raising more revenue, but also disincentivising mobility.
+ - Capital gains are very often untaxed: there is [no tax when the owner is the primary resident](https://www.gov.uk/capital-gains-tax/capital-gains-tax-on-property), and ways around tax even when they are not primary resident. So the vast increases in property prices (again disproportionately in London) remain substantially untaxed.
 
 A logical consequence of devolution in other parts of the UK is legitimacy for London to have more powers.
 

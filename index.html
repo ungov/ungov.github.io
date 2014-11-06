@@ -2,75 +2,69 @@
 layout: front
 ---
 
-<div class="jumbotron splash-light">
+<div class="jumbotron">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
         <h1>Welcome to <strong>UNGOV</strong></h1>
         <p class="lead">Government policy needs a fresh perspective. It's time to put your ideas forward.</p>
-        <p>&nbsp;</p>
-        
-        <div class="alert alert-info">
-          <p class="text-center"><i class="fa fa-warning"></i> We’re making a few changes behind the scenes, please bear with us!</p>
-        </div>
-
       </div>
     </div>
   </div>
 </div>
 
-<div class="splash-medium">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2>How it works</h2>
-        <hr />
-      </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2>How it works</h2>
+      <hr />
     </div>
-    <div class="row">
-      <div class="col-md-4 text-center">
-        <h1><i class="fa fa-lightbulb-o primary"></i></h1>
-        <h3>Ideas</h3>
-        <p>You tell us how government policy can be improved. We keep your identity a secret, so you can be as radical as possible.</p>
-        <p><a href="/submit/" class="btn btn-primary btn-lg btn-front">Submit a new idea</a></p>
-      </div>
-      <div class="col-md-4 text-center">
-        <h1><i class="fa fa-check-square-o primary"></i></h1>
-        <h3>Validation</h3>
-        <p>Anonymous proposals enter our library for the community to review. Anyone can post a comment or edit a proposal to make it better.</p>
-        <p><a href="/library/" class="btn btn-primary btn-lg btn-front">Review existing ideas</a></p>
-      </div>
-      <div class="col-md-4 text-center">
-        <h1><i class="fa fa-refresh primary"></i></h1>
-        <h3>Change</h3>
-        <p>We identify the strongest proposals, and introduce them to people and organisations with the power to make change happen.</p>
-        <p><a href="/contact/" class="btn btn-primary btn-lg btn-front">Get in touch</a></p>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-front text-center">
+      <h1><i class="fa fa-lightbulb-o text-muted"></i></h1>
+      <h3>Ideas</h3>
+      <p>You tell us how government policy can be improved. We keep your identity a secret, so you can be as radical as possible.</p>
+      <p><a href="/submit/" class="btn btn-primary btn-lg btn-front">Submit a new idea</a></p>
+    </div>
+    <div class="col-md-4 col-front text-center">
+      <h1><i class="fa fa-check-square-o text-muted"></i></h1>
+      <h3>Validation</h3>
+      <p>Anonymous proposals enter our library for the community to review. Anyone can post a comment or edit a proposal to make it better.</p>
+      <p><a href="/library/" class="btn btn-primary btn-lg btn-front">Review existing ideas</a></p>
+    </div>
+    <div class="col-md-4 col-front text-center">
+      <h1><i class="fa fa-refresh text-muted"></i></h1>
+      <h3>Change</h3>
+      <p>We identify the strongest proposals, and introduce them to people and organisations with the power to make change happen.</p>
+      <p><a href="/contact/" class="btn btn-primary btn-lg btn-front">Get in touch</a></p>
     </div>
   </div>
 </div>
 
-<div class="splash-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3 class="text-center"><a href="/about/">About</a></h3>
-        <hr />
-        <p>Government policy matters, but modern government is tired. We're here to help, by making it easier to share policy ideas and work together on how things can be improved.</p>
-        <p><a href="/about/">Find out more &raquo;</a></p>
-        </div>
-      <div class="col-md-6">
-        <h3 class="text-center"><a href="/blog/">Blog</a></h3>
-        <hr />
-        
-        {% for post in site.posts limit:3 %}
 
-        <p class="blog-index-front"><strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong><br />
-        {{ post.excerpt }}</p>
 
-        {% endfor %}
-        
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-front">
+      <h3 class="text-center"><a href="/about/">About</a></h3>
+      <hr />
+      <p>Government policy matters, but modern government is tired. We're here to help, by making it easier to share policy ideas and work together on how things can be improved.</p>
+      <p><a href="/about/">Find out more &raquo;</a></p>
       </div>
+    <div class="col-md-6">
+      <h3 class="text-center"><a href="/blog/">Blog</a></h3>
+      <hr />
+      
+      {% for post in site.posts limit:3 %}
+
+      <p class="blog-index-front"><strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong><br />
+      <span class="text-muted"><small>{{ post.date | date: "%d %B %Y" }}</small></span><br />
+      {{ post.excerpt }}</p>
+
+      {% endfor %}
+      
     </div>
   </div>
 </div>
