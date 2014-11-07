@@ -8,7 +8,7 @@ This is where you tell us how government policy can be improved.
 
 All you need is an idea that makes sense.
 
-Send it to us here: **[policy@ungov.uk](mailto:policy@ungov.uk)**
+Send it to us here: [policy@ungov.uk](mailto:policy@ungov.uk)
 
 ---
 
