@@ -5,7 +5,7 @@ title: "Minimum viable product"
 excerpt: "How modern tools have made it easy to get our alpha platform online."
 ---
 
-For a while now, and particularly since the <a href="http://en.wikipedia.org/wiki/Web_2.0">Web 2.0</a> era, people have been saying that the practicalities of starting a new venture are easier that ever. Turns out they're right. Having decided to take a crack at making Ungov real, assembling the alpha site itself out of standard web technologies has been pretty straightforward. Here's what we've done:
+For a while now, and particularly since the <a href="http://en.wikipedia.org/wiki/Web_2.0">Web 2.0</a> era, people have been saying that the practicalities of starting a new venture are easier that ever. Turns out they're right. Having decided to take a crack at getting Ungov off the drawing board, assembling an alpha site itself out of standard web technologies has been pretty straightforward. Here's what we've done:
 
 - Registered our primary domain, for the princely sum of £5.99 + VAT
 - Built an early prototype using the [Bootstrap](http://getbootstrap.com) framework
