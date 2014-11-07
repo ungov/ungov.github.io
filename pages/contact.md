@@ -4,7 +4,7 @@ title: Contact us
 permalink: /contact/
 ---
 
-If you'd like to know more about this project, or talk about taking one of our proposals and putting it into action, then we'd love to hear from you.
+If you'd like to know more about this project, or talk to us about taking one of our proposals and putting it into action, then we'd love to hear from you.
 
 ---
 
