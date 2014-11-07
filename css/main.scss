@@ -1,8 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 
 
@@ -10,90 +10,95 @@
 
 $base-font-family:  Helvetica, Arial, sans-serif;
 $base-font-size:    18px;
-$base-font-weight:  300;
-$base-line-height:  1.5;
+$base-font-weight:  normal;
+$base-font-color:   #666666;
 
-$base-font-color:   #333333;
+$base-line-height:  1.5;
 
 $brand-color:       #CC0099;
 $brand-color-hover: #FF0099;
 
-$brand-color-button: $brand-color;
-$brand-color-button-hover: #B8008A;
-$brand-color-button-outline: #B8008A;
-$brand-color-button-outline-hover: #A3007A;
-
-$background-light:  #FFFFFF;
-$background-medium: #F8F8F8;
-$background-dark:   #F0F0F0;
-
-$object-light:      #EEEEEE;
-$object-medium:     #E8E8E8;
-$object-dark:       #E0E0E0;
+$brand-color-button:                #CC0099;
+$brand-color-button-hover:          #B8008A;
+$brand-color-button-outline:        #B8008A;
+$brand-color-button-outline-hover:  #A3007A;
 
 $spacing-unit:      30px;
-
-
-
-// Import partials
-@import "base";
 
 
 
 // Base styles 
 
 body { 
-  padding-top: 70px;
+  padding-top:    70px;
   padding-bottom: $spacing-unit;
-  font-family: $base-font-family;
-  font-size:   $base-font-size; 
-  font-weight: $base-font-weight;
-  line-height: $base-line-height;
-  color:       $base-font-color;
+  font-family:    $base-font-family;
+  font-size:      $base-font-size; 
+  font-weight:    $base-font-weight;
+  color:          $base-font-color;  
+  line-height:    $base-line-height;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-h4, h5, h6 {
-  margin-top: $spacing-unit;
-}
-
-a {
-  color: $brand-color;
-}
-
-a:hover {
-  color: $brand-color-hover;
+  color: #000000;
 }
 
 .lead {
   font-size: 125%;
-  font-weight: 400;
 }
 
-.blog-index-front, .library-index {
-  margin-bottom: $spacing-unit;
+.jumbotron {
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
-.blog-index {
-  margin-top: $spacing-unit * 2;
-}
-
-.primary {
+a, a.btn-default {
   color: $brand-color;
 }
 
-a.btn-default {
-  color: $brand-color;
-}
-
-a.btn-default:hover {
+a:hover, a.btn-default:hover {
   color: $brand-color-hover;
 }
 
-// Nav
+.btn-primary {
+  background-color: $brand-color-button;
+  border-color: $brand-color-button-outline;
+}
+
+.btn-primary:hover {
+  background-color: $brand-color-button-hover;
+  border-color: $brand-color-button-outline-hover;  
+}
+
+
+
+// Spacing
+
+h3, h4, h5, h6 {
+  margin-top: $spacing-unit;
+}
+
+.btn-front {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+.col-front {
+  margin-bottom: $spacing-unit * 2;
+}
+
+.blog-index, .library-index {
+  margin-bottom: $spacing-unit;
+}
+
+.well h3 {
+  margin-top: $spacing-unit / 3;
+}
+
+
+
+// Navbar
 
 .logo {
 
@@ -131,56 +136,4 @@ a.btn-default:hover {
   .logo {
     margin-left: 10px;
   }
-}
-
-
-
-// Splash
-
-.jumbotron {
-  background-color: $background-light;
-}
-
-.col-front {
-  margin-bottom: $spacing-unit * 2;
-}
-
-// Panels
-
-.panel {
-  margin-top: $spacing-unit;
-}
-
-.panel-body {
-  font-size: 80%;
-}
-
-
-
-// Buttons
-
-.btn-primary {
-  background-color: $brand-color-button;
-  border-color: $brand-color-button-outline;
-}
-
-.btn-primary:hover {
-  background-color: $brand-color-button-hover;
-  border-color: $brand-color-button-outline-hover;  
-}
-
-.btn-front {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
-}
-
-
-
-// Footer
-
-.footer {
-
-  color: #999999;
-  font-size: 80%;
-
 }
