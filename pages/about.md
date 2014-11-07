@@ -28,4 +28,4 @@ We are making everything else as transparent as possible, and you can always [ta
 
 ### The team
 
-Ungov is run by [Chris](http://uk.linkedin.com/in/clry2) and [Sophia](http://uk.linkedin.com/pub/sophia-oliver/78/6a9/628/). Between us we have over 20 years’ experience in the policy world, working both inside and outside government.
+Ungov is run by [Chris](http://uk.linkedin.com/in/clry2) and [Sophia](http://uk.linkedin.com/pub/sophia-oliver/78/6a9/628/). Between us we have over 20 years’ experience in the policy world, and have spent time working both inside and outside government.
