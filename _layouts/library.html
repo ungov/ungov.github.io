@@ -10,34 +10,13 @@ layout: default
     
     <p class="lead">{{ page.excerpt }}</p>
     <hr />
+    
     {{ content }}    
       
   </div>
   <div class="col-md-4 col-front">
   
-    <div class="well small">
-  
-      <h3>Help improve this proposal</h3>
-      <p>Every proposal on this site is a group effort. You can help make this one better by:</p>
-      <ul>
-        <li>Highlighting where this proposal gets it right (or wrong)</li>
-        <li>Suggesting ways that it can be improved</li>
-        <li>Adding links to data and supporting evidence</li>     
-      </ul>
-      
-      <h4>Spread the word</h4>
-      <p>You can use the buttons below to share a link to this page on social media.</p>
-
-      {% include social-buttons.html %}
-      
-      <h4>Leave a comment</h4>
-      <p>There's a comment box at the bottom of this page where you can discuss this proposal. You can log in using a <a href="https://disqus.com">Disqus</a>, <a href="https://twitter.com/">Twitter</a>, <a href="https://facebook.com/">Facebook</a> or <a href="https://plus.google.com/">Google</a> account, or leave a comment as a guest.<p>
-      
-      <h4>Make an edit or addition</h4>
-      <p>If you have a <a href="https://github.com/">GitHub</a> account then you can edit the text of this proposal directly. When you're happy with your changes, send us a pull request.</p>
-      <p><a href="https://github.com/ungov/ungov.github.io/blob/master/{{ page.path }}" class="btn btn-primary"><i class="fa fa-github"></i> Edit this page on GitHub</a></p>
-      
-    </div>
+    {% include help-improve.html %}
   
   </div>
 </div>
