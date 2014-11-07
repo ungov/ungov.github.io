@@ -8,20 +8,21 @@
 
 // Base variables
 
-$base-font-family:  Helvetica, Arial, sans-serif;
-$base-font-size:    18px;
-$base-font-weight:  normal;
-$base-font-color:   #666666;
+$base-font-family:      Helvetica, Arial, sans-serif;
+$base-font-size:        18px;
+$base-font-weight:      normal;
+$base-font-color:       #666666;
+$base-font-color-muted: #999999;
 
-$base-line-height:  1.5;
+$base-line-height:      1.5;
 
-$brand-color:       #CC0099;
-$brand-color-hover: #FF0099;
+$brand-color:           #CC0099;
+$brand-color-hover:     #FF0099;
 
-$brand-color-button:                #CC0099;
-$brand-color-button-hover:          #B8008A;
-$brand-color-button-outline:        #B8008A;
-$brand-color-button-outline-hover:  #A3007A;
+$brand-color-button:              #CC0099;
+$brand-color-button-hover:        #B8008A;
+$brand-color-button-border:       #B8008A;
+$brand-color-button-border-hover: #A3007A;
 
 $spacing-unit:      30px;
 
@@ -48,27 +49,31 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 125%;
 }
 
+.text-muted {
+  color: $base-font-color-muted;
+}
+
 .jumbotron {
   color: #000000;
   background-color: #FFFFFF;
 }
 
-a, a.btn-default {
+a {
   color: $brand-color;
 }
 
-a:hover, a.btn-default:hover {
+a:hover {
   color: $brand-color-hover;
 }
 
 .btn-primary {
   background-color: $brand-color-button;
-  border-color: $brand-color-button-outline;
+  border-color: $brand-color-button-border;
 }
 
 .btn-primary:hover {
   background-color: $brand-color-button-hover;
-  border-color: $brand-color-button-outline-hover;  
+  border-color: $brand-color-button-border-hover;  
 }
 
 
@@ -128,12 +133,12 @@ h3, h4, h5, h6 {
   
 }
 
-.navbar {
-  border-bottom: 5px solid $brand-color;
-}
-
 @media screen and (max-width: 767px) {
   .logo {
     margin-left: 10px;
   }
+}
+
+.navbar {
+  border-bottom: 5px solid $brand-color;
 }
