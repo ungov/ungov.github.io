@@ -85,7 +85,13 @@ a:hover {
   color: $brand-color;
 }
 
+a.btn-default {
+  color: $brand-color;
+}
 
+a.btn-default:hover {
+  color: $brand-color-hover;
+}
 
 // Nav
 
