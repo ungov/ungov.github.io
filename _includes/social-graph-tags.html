@@ -1,0 +1,16 @@
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@UNGOVUK" />
+<meta name="twitter:creator" content="@UNGOVUK" />
+
+<!-- Google+ data -->
+<link rel="author" href="https://plus.google.com/100393097206541164017" />
+
+<!-- Open Graph data -->    
+<meta property="og:title" content="{{ site.title }}{% if page.title %} &raquo; {{ page.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />        
+<meta property="og:url" content="{{ page.url | prepend: site.url }}" />    
+<meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}http://ungov.uk/images/image.png{% endif %}" /> 
+<meta property="og:site_name" content="{{ site.title }}" />       
+<meta property="og:type" content="website" /> 
+<meta property="fb:admins" content="509241123" /> 
