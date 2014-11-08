@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2014-11-07
+date: 2014-11-08
 title: Developing policy like a hacker
 excerpt: We've added GitHub collboration to our policy library.
 ---
