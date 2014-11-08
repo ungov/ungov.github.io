@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
   color: $base-font-color-muted;
 }
 
+img {
+  max-width: 100%;
+}
+
 .jumbotron {
   color: #000000;
   background-color: #FFFFFF;
