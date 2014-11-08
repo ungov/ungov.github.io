@@ -11,6 +11,8 @@ layout: default
     
     <p class="lead">{{ page.excerpt }}</p>
     <hr />
+    
+    {% if page.featured-image %}<p><img src="/images/{{ page.featured-image }}" /></p>{% endif %}
 
     {{ content }}
     
