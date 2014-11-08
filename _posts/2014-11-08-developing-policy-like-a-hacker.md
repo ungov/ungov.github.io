@@ -11,7 +11,7 @@ We always knew we would need ways for people to work together to improve the ide
 
 We've had comments turned on from the outset, and have recently upgraded from a pretty basic setup to something a bit smarter (powered by [Disqus](http://disqus.com)). The comment forms on this site now support replies and nested comments, allow you to vote other people's contributions up or down, and let you include images as well as text. Should you wish, you can also log in using your [Twitter](https://twitter.com/), [Facebook](https://facebook.com/) or [Google](https://plus.google.com/) identity - or as before, leave a comment as a guest without registering.
 
-As well as giving people the chance to comment and discuss the ideas on our site, we wanted to find a way for people to collaborate directly on the content itself. Building a [wiki](http://en.wikipedia.org/wiki/Wiki) didn't feel quite right - Ungov is about collaboration but an important part of our offer is validation, and layering a lot of rules on top of a wiki platform felt like a sad thing to do.
+As well as giving people the chance to comment and discuss the ideas on our site, we wanted to find a way for people to collaborate directly on the content itself. Building a [wiki](http://en.wikipedia.org/wiki/Wiki) didn't feel quite right; Ungov is about collaboration but an important part of our offer is validation, and layering a lot of rules on top of a wiki platform felt like a sad thing to do.
 
 After sifting through lots of other options, in the end we've picked a very simple solution.
 
