@@ -2,7 +2,7 @@
 layout: post
 date: 2014-11-08
 title: Developing policy like a hacker
-excerpt: We've added GitHub collboration to our policy library.
+excerpt: We've added GitHub collaboration to our policy library.
 ---
 
 This project is all about finding new, better ways to talk about government policy. We've spent the past few weeks testing out our [policy library pages](http://ungov.uk/library/), uploading some starter content based on the ideas that you have been sending us to see how it works on the web.
