@@ -15,7 +15,7 @@ Send it to us here: [policy@ungov.uk](mailto:policy@ungov.uk)
 #### What we're looking for
 
 - We're looking for simple, radical ideas that you think the people in power ought to consider.
-- It will help if you can set out clearly what problem you have identified and how you think it can be solved (take a look at the [library](/library/) to see how other people have approached things).
+- It will help if you can set out clearly what problem you have identified and how you think it can be solved (take a look at the [policy library](/library/) to see how other people have approached things).
 - Don't worry if you haven't worked out all the details, we can help you to do that part.
 
 #### What happens next
