@@ -9,9 +9,9 @@
   
   {% include social-graph-tags.html %}
    
-  <link rel="icon" href="http://ungov.uk/images/favicon.ico" />
-  <link rel="image_src" href="http://ungov.uk/images/image.png" />
-  <link rel="apple-touch-icon" href="http://ungov.uk/images/image.png" />
+  <link rel="icon" href="{{ site.url | append: '/images/favicon.ico' }}" />
+  <link rel="image_src" href="{{ site.url | append: '/images/image.png' }}" />
+  <link rel="apple-touch-icon" href="{{ site.url | append: '/images/image.png' }}" />
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -27,7 +27,7 @@
   
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
-  <link rel="alternate" type="application/rss+xml" title="UNGOV" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml" />
   
   {% include google-analytics.html %}
 

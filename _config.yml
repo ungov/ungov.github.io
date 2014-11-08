@@ -4,5 +4,12 @@ description: Government policy needs a fresh perspective. It's time to put your 
 url: "http://ungov.uk"
 permalink: /blog/:title/
 
+# Account settings
+twitter: ungovuk
+gplus: 100393097206541164017
+facebook: 509241123
+ganalytics: UA-52352070-1
+disqus: ungov
+
 # Build settings
 markdown: kramdown
