@@ -13,5 +13,3 @@ This made lots of sense for an agricultural society where candles were expensive
 Today, if we'd never heard of daylight saving time then we certainly wouldn't adopt it. Aside from having to adjust all the clocks, around the discontinuity people's sleep is affected, appointments are missed and accidents go up.
 
 We're more than capable of organising our time for ourselves, and regularly do so with little reference to the presence (or not) of daylight. Far better to let time tick over uninterrupted, and for each of us to adjust the rhythm of our lives to suit our own circumstances.
-
-As an extra bonus, shifting to a single timezone for the UK could be the first step toward shifting to [a single timezone for the whole world](http://www.smithsonianmag.com/science-nature/one-time-zone-for-the-world-127795315/).
