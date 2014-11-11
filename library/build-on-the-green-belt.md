@@ -10,7 +10,7 @@ The UK is suffering from a massive shortage of homes for people to live in. With
 
 If you own your home then this might sound like good news. But if you're thinking about trading up then the house you want to buy just got even more expensive. And for millions of people, the dream of owning their first home is receding by the day.
 
-A big part of the problem is the lack of new homes coming onto the market. So as well as making it easier to convert premises from business to residential use (see above), we also need to free up more land for new homes.
+A big part of the problem is the lack of new homes coming onto the market. So as well as making it easier to convert premises from business to residential use, we also need to free up more land for new homes.
 
 A major constraint on the expansion of many of our towns and cities are our green belts. These were put in place from the 1930s to prevent urban sprawl, and cover 13% of England. Today many cities suffer a double whammy - people crammed into expensive homes in urban centres, and many more commuting huge distances on overcrowded transport links.
 
