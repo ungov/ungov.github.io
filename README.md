@@ -1,3 +1,3 @@
 # UNGOV
 
-This is the master respository for [Ungov](http://ungov.uk).
+This is the master respository for [UNGOV](http://ungov.uk).
