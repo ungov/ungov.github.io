@@ -18,3 +18,4 @@ No doubt every council would plead exceptional circumstances, and many a cosy IT
 
  - [How to create a Local Government Digital Service](http://www.computerweekly.com/opinion/How-to-create-a-Local-Government-Digital-Service)
  - [Why I support the creation of a local government digital service](http://www.theguardian.com/public-leaders-network/2014/sep/08/local-government-digital-service-gds)
+ - [A timeline of the Local GDS/local.gov.uk debate](https://github.com/LocalGovDigital/localgovdigital.github.io/wiki/Local-GDS)
