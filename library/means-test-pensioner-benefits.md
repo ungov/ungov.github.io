@@ -12,7 +12,7 @@ All of this has protected many poor pensioners from the worst of the economic do
 
 At a time when the government is still seeking to bring balance to the public finances, and with further tax increases and / or spending cuts seemingly inevitable, there is no credible economic case for continuing with universal pensioner benefits. For many well-off pensioners, the winter fuel allowance and its ilk are simply free money to be spent on whatever they please, paid for by everyone else.
 
-Simply abolishing the three main universal pensioner benefits would save several billion pounds a year. If we didn't want to go this far, then an element of means testing could reduce the bill significantly by limiting entitlement to pensioners with income below a certain level ([median household earnings](http://www.theguardian.com/money/2014/mar/25/uk-incomes-how-salary-compare), say).
+Simply abolishing the three main universal pensioner benefits would save several billion pounds a year. If we didn't want to go this far, then an element of means testing could reduce the bill significantly by limiting entitlement to pensioners with incomes below a certain level ([median household earnings](http://www.theguardian.com/money/2014/mar/25/uk-incomes-how-salary-compare), say).
 
 **Further reading**
 
