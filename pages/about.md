@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-The decisions government takes on our behalf are hugely important. But modern government is tired, and when confronted by vested interests, bureaucratic inertia and the tabloid media, too often puts the easiest thing to do ahead of the right thing to do.
+The decisions government takes on our behalf are hugely important. Modern government is tired, and when confronted by vested interests, bureaucratic inertia and the tabloid media, too often puts the easy thing to do ahead of the right thing to do.
 
 But talk to people privately about the work they do - be it in government, in business or in civil society - and you'll find that most have a clear idea about how government policy can be improved.
 
@@ -28,4 +28,4 @@ We are making everything else as transparent as possible, and you can always [ta
 
 ### The team
 
-Ungov is run by [Chris](http://uk.linkedin.com/in/clry2) and [Sophia](http://uk.linkedin.com/pub/sophia-oliver/78/6a9/628/). Between us we have over 20 years’ experience in the policy world, and have spent time working both inside and outside government.
+Ungov is run by [Chris](https://twitter.com/clry2) and [Sophia](https://twitter.com/sophia_oliver). Between us we have over 20 years’ experience in the policy world, and have spent time working both inside and outside government.

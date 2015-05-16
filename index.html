@@ -42,29 +42,3 @@ layout: front
     </div>
   </div>
 </div>
-
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-front">
-      <h3 class="text-center"><a href="/about/">About</a></h3>
-      <hr />
-      <p>Government policy matters, but modern government is tired. We're here to help, by making it easier to share policy ideas and work together on how things can be improved.</p>
-      <p><a href="/about/">Find out more &raquo;</a></p>
-      </div>
-    <div class="col-md-6">
-      <h3 class="text-center"><a href="/blog/">Blog</a></h3>
-      <hr />
-      
-      {% for post in site.posts limit:3 %}
-
-      <p class="blog-index"><strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong><br />
-      <span class="text-muted"><small>{{ post.date | date: "%d %B %Y" }}</small></span><br />
-      {{ post.excerpt }}</p>
-
-      {% endfor %}
-      
-    </div>
-  </div>
-</div>
