@@ -4,7 +4,7 @@ title: Submit an idea
 permalink: /submit/
 ---
 
-<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <strong>Service update:</strong> we're taking a bit of time out to think about how UNGOV will develop. You can continue to submit ideas, but we might take a bit longer than usual to get back to you.</div>
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <strong>Service update:</strong> we're taking a bit of time out to think about how UNGOV will develop. You can continue to submit ideas, but we might take a bit longer than usual to get back to you. If you'd like to help please <a href="/contact/" class="alert-link">get in touch</a>!</div>
 
 This is where you tell us how government policy can be improved.
 
