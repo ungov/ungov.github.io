@@ -2,4 +2,4 @@
 
 This is the master respository for [UNGOV](http://ungov.uk).
 
-*UNGOV is currently paused.*
+*UNGOV is paused. Get in touch via [hello@ungov.uk](mailto:hello@ungov.uk)*
