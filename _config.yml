@@ -1,7 +1,7 @@
 # Site settings
 title: UNGOV
 description: Government policy needs a fresh perspective. It's time to put your ideas forward.
-url: "http://ungov.uk"
+url: "https://ungov.uk"
 permalink: /blog/:title/
 
 # Account settings
